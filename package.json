@@ -12,12 +12,17 @@
     "linux": "electron-builder --linux appimage"
   },
   "repository": "https://github.com/IsllaTOd/bilibili_For-slacking-off-at-work",
-  "author": "isllatod",
   "devDependencies": {
     "electron": "^13.6.6",
     "electron-builder": "^22.9.1"
   },
   "build": {
+    "extraFiles": [
+      {
+        "from": "使用说明.txt",
+        "to": "."
+      }
+    ],
     "mac": {
       "category": "Network"
     },
@@ -25,9 +30,9 @@
       "category": "Network",
       "icon": "build/icon.ico"
     },
-"nsis": {
-      "oneClick": false,                          
-      "allowToChangeInstallationDirectory": true   
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     }
   },
   "dependencies": {
