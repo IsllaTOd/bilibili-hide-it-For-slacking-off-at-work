@@ -33,5 +33,5 @@ npm start
 
 ####  **Acknowledgements**
 
-本项目是基于原作者开源的桌面悬浮摸鱼项目 (https://github.com/chitosai/bilimini#for-developers)进行的二次开发与修复版本。
+本项目是基于原作者开源的桌面悬浮摸鱼项目 (https://github.com/chitosai/bilimini#for-developers)进行的修改。
 
